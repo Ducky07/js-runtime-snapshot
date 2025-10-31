@@ -1,7 +1,7 @@
 // Benchmarking file read/write performance
 
-import { writeFileSync, readFileSync, unlinkSync } from "fs";
-import { join } from "path";
+import { writeFileSync, readFileSync, unlinkSync } from "node:fs";
+import { join } from "node:path";
 
 const iterations = 1000;
 const testData = "x".repeat(1024); // 1KB of data

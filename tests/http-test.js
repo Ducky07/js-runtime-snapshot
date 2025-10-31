@@ -1,7 +1,7 @@
 // Simple HTTP server that responds with a JSON message
 // Run this server and use autocannon on http://localhost:3000
 
-import { createServer } from "http";
+import { createServer } from "node:http";
 
 const server = createServer((req, res) => {
   res.writeHead(200, { "Content-Type": "application/json" });
