@@ -8,10 +8,14 @@
   "main": "index.js",
   "scripts": {
     "test": "node index.js",
-    "test-deno": "deno run --allow-write --allow-run index.js",
+    "test-bun": "bun run index.js",
+    "test-deno": "deno run --allow-write --allow-run --allow-read index.js",
     "http-test": "node ./tests/http-test.js",
-    "http-test-deno": "deno run --allow-net ./tests/http-test-deno.js",
+    "http-test-bun": "bun run ./tests/http-test.js",
+    "http-test-deno": "deno run --allow-net ./tests/http-test.js",
+    "http-test-deno-native": "deno run --allow-net ./tests/http-test-deno.js",
     "autocannon": "node ./tests/autocannon.js",
+    "autocannon-bun": "bun run ./tests/autocannon.js",
     "autocannon-deno": "deno run --allow-read --allow-write --allow-net --allow-env ./tests/autocannon.js"
   },
   "devDependencies": {
