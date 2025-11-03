@@ -46,7 +46,7 @@ const md = `# Memory Usage Test
 
 | Stage               | RSS       | Heap Total | Heap Used |
 |---------------------|-----------|------------|-----------|
-| Initial             | ${initialMemory.rss} | ${initialMemory.heapTotal} | ${initialMemory.heapUsed} |
+| Initial            | ${initialMemory.rss} | ${initialMemory.heapTotal} | ${initialMemory.heapUsed} |
 | After Data Creation | ${loadMemory.rss} | ${loadMemory.heapTotal} | ${loadMemory.heapUsed} |
 | After Processing    | ${finalMemory.rss} | ${finalMemory.heapTotal} | ${finalMemory.heapUsed} |
 `;

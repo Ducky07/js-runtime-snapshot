@@ -5,6 +5,6 @@ _Timestamp: `2025-11-03`_
 
 | Stage               | RSS       | Heap Total | Heap Used |
 | ------------------- | --------- | ---------- | --------- |
-| Initial             | 90.81 MB  | 40.09 MB   | 11.05 MB  |
-| After Data Creation | 104.73 MB | 49.95 MB   | 32.51 MB  |
-| After Processing    | 132.48 MB | 76.13 MB   | 41.94 MB  |
+| Initial             | 90.52 MB  | 40.09 MB   | 18.96 MB  |
+| After Data Creation | 107.31 MB | 52.66 MB   | 35.34 MB  |
+| After Processing    | 130.86 MB | 75.48 MB   | 41.58 MB  |

@@ -5,6 +5,6 @@ _Timestamp: `2025-11-03`_
 
 | Metric                   | Value (ms) |
 | ------------------------ | ---------- |
-| Total Time               | 44.70      |
-| Write Time (1000 writes) | 30.93      |
-| Read Time (1000 reads)   | 13.64      |
+| Total Time               | 37.67      |
+| Write Time (1000 writes) | 28.48      |
+| Read Time (1000 reads)   | 9.05       |

@@ -4,11 +4,11 @@ _Timestamp: `2025-11-03`_
 
 ## Results Summary
 
-| Metric                     | Min     | Max     | Average | Total    |
-| -------------------------- | ------- | ------- | ------- | -------- |
-| **Latency (ms)**           | 1       | 11      | 1       | -        |
-| **Requests/sec**           | 33540   | 44731   | 40896   | 408924   |
-| **Throughput (bytes/sec)** | 6741540 | 8990931 | 8220058 | 82193724 |
+| Metric                     | Min      | Max      | Average  | Total     |
+| -------------------------- | -------- | -------- | -------- | --------- |
+| **Latency (ms)**           | 1        | 11       | 1        | -         |
+| **Requests/sec**           | 53149    | 62985    | 61446    | 614435    |
+| **Throughput (bytes/sec)** | 10682949 | 12659985 | 12351078 | 123501435 |
 
 ## Additional Details
 

@@ -5,4 +5,4 @@ _Timestamp: `2025-11-03`_
 
 | Metric       | Value   |
 | ------------ | ------- |
-| Startup Time | 0.05 ms |
+| Startup Time | 0.03 ms |

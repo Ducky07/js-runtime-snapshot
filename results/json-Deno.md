@@ -5,6 +5,6 @@ _Timestamp: `2025-11-03`_
 
 | Metric           | Value (ms) |
 | ---------------- | ---------- |
-| Total Time Taken | 12948.46   |
-| Stringify Time   | 3485.71    |
-| Parse Time       | 9462.32    |
+| Total Time Taken | 7532.52    |
+| Stringify Time   | 2047.13    |
+| Parse Time       | 5485.12    |

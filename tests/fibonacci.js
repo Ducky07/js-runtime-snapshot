@@ -15,6 +15,7 @@ function sortBenchmark() {
 }
 
 // Fibonacci benchmark
+const totalStartTime = performance.now();
 const fibonacciStartTime = performance.now();
 console.log(`Testing CPU-bound operations on ${currentRuntime}...`);
 const result = fibonacci(35);
@@ -27,9 +28,10 @@ for (let i = 0; i < 100; i++) {
   sortBenchmark();
 }
 const sortEndTime = performance.now();
-
+const totalEndTime = performance.now();
 const fibonacciTime = fibonacciEndTime - fibonacciStartTime;
 const sortTime = sortEndTime - sortStartTime;
+const totalTimeTaken = totalEndTime - totalStartTime;
 
 const md = `# CPU-bound Operations Test
 *Runtime: ${currentRuntime}*
@@ -39,6 +41,7 @@ const md = `# CPU-bound Operations Test
 |------------------------|---------------------|
 | Fibonacci Time (n=35)  | ${fibonacciTime.toFixed(2)}   |
 | Sort Time (100 runs)   | ${sortTime.toFixed(2)}       |
+| Total Time Taken       | ${totalTimeTaken.toFixed(2)}  |
 `;
 
 fs.writeFileSync(`results/cpu-${currentRuntime}.md`, md);
