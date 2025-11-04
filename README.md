@@ -17,20 +17,20 @@ Link to results folder: [results](./results)
 
 ### HTTP Request Benchmark
 
-![HTTP Request Benchmark](https://github.com/ducky07/js-runtime-snapshot/raw/master/results/pictures/Request-Per-Second.png "HTTP Request Benchmark Results")
+![HTTP Request Benchmark](https://github.com/Ducky07/js-runtime-snapshot/raw/main/results/pictures/Request-Per-Second.png "HTTP Request Benchmark Results")
 
 ### HTTP Request Benchmark with Deno Native APIs
 
-![HTTP Request Benchmark with Deno Native APIs](ttps://github.com/ducky07/js-runtime-snapshot/raw/master/results/pictures/Request-Per-Second-Native.png "HTTP Request Benchmark Results, Deno running with native APIs")
+![HTTP Request Benchmark with Deno Native APIs](https://github.com/Ducky07/js-runtime-snapshot/raw/main/results/pictures/Request-Per-Second-Native.png "HTTP Request Benchmark Results, Deno running with native APIs")
 
 ### Read and Write File Benchmark
 
-![Read and Write File Benchmark](ttps://github.com/ducky07/js-runtime-snapshot/raw/master/results/pictures/Read-Write.png "Read and Write File Benchmark Results")
+![Read and Write File Benchmark](https://github.com/Ducky07/js-runtime-snapshot/raw/main/results/pictures/Read-Write.png "Read and Write File Benchmark Results")
 
 ### JSON Stringify and Parse Benchmark
 
-![JSON Stringify and Parse Benchmark](ttps://github.com/ducky07/js-runtime-snapshot/raw/master/results/pictures/JSON-Stringify-Parse.png "JSON Stringify and Parse Benchmark Results")
+![JSON Stringify and Parse Benchmark](https://github.com/Ducky07/js-runtime-snapshot/raw/main/results/pictures/JSON-Stringify-Parse.png "JSON Stringify and Parse Benchmark Results")
 
 ### CPU Operations Benchmark
 
-![CPU Operations Benchmark](ttps://github.com/ducky07/js-runtime-snapshot/raw/master/results/pictures/CPU-Operations.png "CPU Operations Benchmark Results")
+![CPU Operations Benchmark](https://github.com/Ducky07/js-runtime-snapshot/blob/main/results/pictures/CPU-Operations.png?raw=true "CPU Operations Benchmark Results")
