@@ -17,6 +17,8 @@ Link to results folder: [results](./results)
 
 ### HTTP Request Benchmark (higher value is better)
 
+Spamming HTTP requests to a local server for 10 seconds, measuring requests per second.
+
 ![HTTP Request Benchmark](https://github.com/Ducky07/js-runtime-snapshot/raw/main/results/pictures/Request-Per-Second.png "HTTP Request Benchmark Results")
 In general throughout multiple test runs, Bun performed the best in this benchmark, followed closely by Node.js.
 Deno lagged behind both runtimes, likely due to not using its native APIs for handling HTTP requests. Having to do conversions which adds overhead.
