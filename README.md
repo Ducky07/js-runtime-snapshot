@@ -1,13 +1,13 @@
 # JavaScript Runtime Benchmarks
 
 _**Note:** All results were obtained using a M2 Macbook Air, with macOS version 26.0.1 Tahoe.
-These tests are not meant to be perfect, more just a comparison to see roughly where these runtimes will land on the spectrum.
+These tests are not meant to be perfect, more just a comparison to see roughly where these runtimes will land on the spectrum._
 
-It is recommended to do your own testing and compare results elsewhere.
+_It is recommended to do your own testing and compare results elsewhere._
 
-Lastly, I will mention that these results are not entirely fair towards Deno, since I did not implement all of these tests with Denos native APIs in mind (see native chart and tests/http-test-deno file to see the difference).
+_Lastly, I will mention that these results are not entirely fair towards Deno, since I did not implement all of these tests with Denos native APIs in mind (see native chart and tests/http-test-deno file to see the difference)._
 
-There are many variables that can affect these results, like your hardware, operating system and executed code, hence I recommend taking these results with a grain of salt. _
+_There are many variables that can affect these results, like your hardware, operating system and executed code, hence I recommend taking these results with a grain of salt._
 
 ## Runtime testing at the end of 2025 (03.11.2025)
 
